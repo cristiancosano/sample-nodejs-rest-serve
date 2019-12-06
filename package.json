@@ -1,0 +1,24 @@
+{
+  "name": "sample-nodejs-rest-server",
+  "version": "1.0.0",
+  "description": "Sample rest server using nodejs and expressjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server/server",
+    "dev": "nodemon server/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cristiancosano",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "colors": "^1.4.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.6",
+    "google-auth-library": "^5.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.13",
+    "mongoose-unique-validator": "^2.0.3",
+    "underscore": "^1.9.1"
+  }
+}
